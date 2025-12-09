@@ -12,6 +12,6 @@ public class jump : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
-            anim.Play("jump");
+            anim.Play("Jump");
     }
 }
