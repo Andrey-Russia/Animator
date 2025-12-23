@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class jump : MonoBehaviour
+public class jumpj : MonoBehaviour
 {
     public Animator animator;
 
@@ -14,6 +14,6 @@ public class jump : MonoBehaviour
 
     public void PlayAnimation()
     {
-        animator.SetTrigger("Jump");
+        animator.SetTrigger("HI");
     }
 }
